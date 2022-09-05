@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+    font-size: 4rem;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
+
+h3{
+    color: rgb(0, 17, 255);
+    font-size: 2.5rem;
+}
+
+h4{
+    color: rgb(212, 201, 42);
+    font-size: 2rem;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Merriweather', serif;
+    background-color: rgb(0, 255, 76);
+}
+
+nav{
+    background-color: chocolate;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 50px;
+}
+     nav ul{
+        list-style: none;
+        display: inline-block;
+        margin-left: 30px;
+    }
+        nav ul li{
+            display: inline-block;
+            margin-right: 20px;
+        }
+            nav ul li a{
+            color: blue;
+            text-decoration: nome;
+            font-family: 'Merriweather', serif;
+            font-size: 2rem;
+            }
+        nav ul li a:hover{
+            color: white;
+            text-decoration: underline;
+        }
+
+section p{
+    font-size: 2rem;
+    line-height: 2.2rem;
+    }
+
+.bg-amarillo{
+    background-color: #cecb39d2;
+}
+
+.bg-verde{
+    background-color: #2ee40a;
+}
+
+.bg-gris{
+    background-color: rgba(97, 99, 96, 0.7);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.text-bold{
+    font-weight: 800;
+}
+
+#encabezado{
+    color: rgb(253, 255, 255);
+}
+
+.anuncio__box--white{
+    text-align: center;
+    background-color: white;
+    color: gray;
+    font-size: 2rem;
+    padding: 4px 0;
+}
+
+.encabezado__img--fluid{
+    width: 100%;    
+}
+
+.Novedades__titulo--xxl{
+    font-size: 4rem;
+}
+
+.Novedades__titulo--xl{
+    font-size: 3rem;
+}
+
+.Novedades__titulo--md{
+    font-size: 2.5rem;
+}
+
+.Novedades__articulo{
+    width: 95%;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px 40px;
+    border: outset rgb(255, 251, 0) 15px;
+    overflow: auto;
+    }
+
+.pie{
+    text-align: center;
+    padding: 6px 20px;
+}
+
+.pie__icon--sm{
+    width: 50px;
+}
+
+.pie__titulo--md{
+    margin: 25px 0;
+}
+
+body{
+    background-image: url(../img/bubble\ square.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+main section p{
+    color: dimgrey;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+
